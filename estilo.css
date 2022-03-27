@@ -1,0 +1,127 @@
+
+#boton{
+    position: absolute;
+    top: 95.5%;
+    left: 32%;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:bold;
+    padding:10px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+
+
+#pokeName {
+    position: absolute;
+    top: 95.5%;
+    left: 15%;
+    padding: 0.5%;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #bc5eb6;
+    background-color: #48a6a1;
+    color: black;
+    border-style: inset;
+    border-radius: 9px;
+    box-shadow: 0px 0px 6px rgba(66,66,66,.75);
+    text-shadow: 5px 2px 5px rgba(66,66,66,.75);
+}
+#pokeName:focus {
+    outline:none;
+}
+
+#pantalla {
+    background: #f1f2d3;
+    position: absolute;
+    top: 82%;
+    left: 18%;
+    width: 15%;
+    height: 5%;
+}
+
+#pokeImg{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    width: 15%;
+    height: 30%;
+}
+#nPokemon{
+    position: absolute;
+    top: 585px;
+    left: 320px;
+    font-family: Georgia, Serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #bc5eb6;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    width: 100px;
+}
+
+p{
+    text-transform: capitalize;
+}
+
+#nombreP{
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+#tipo{
+    color: #eee015;
+    position: absolute;
+    top:47%;
+    left: 66%;
+}
+
+.stats{
+    color: #eee015;
+    position: absolute;
+    top:62%
+}
+
+#HP{left: 62.5%;}
+#atk{left: 67%;}
+#def{left: 72.2%;}
+#sATK{left: 77.6%;}
+#sDEF{left: 82.9%;}
+#Speedo{left: 88.4%;}
+
+.skills{
+    position: absolute;
+    top: 114%;
+}
+
+#skill1{left: 61%}
+#skill2{left: 67.2%}
+
+.final{
+    color: #eee015;
+    position: absolute;
+    top:131.4%;
+}
+
+#Ht{left: 66%;}
+#Wg{left: 82%}
+
+

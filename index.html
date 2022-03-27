@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./estilo.css">
+
+</head>
+<body>
+<div id="pantalla"> <p id="nombreP"></p> </div>
+<img src="./img/pokedex.jpg" alt="Pokedex" id="Pokedex" width="100%">
+<input type="text" placeholder="Pikachu" id="pokeName" name="pokeName"><br>
+<img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" ><br>
+<button onclick="fetchPokemon()" id="boton">Mostrar pokemón</button>
+
+
+<p id="tipo">tipo</p>
+<p id="HP"class="stats">HP</p>
+<p id="atk" class="stats">ATK</p>
+<p id="def" class="stats">DEF</p>
+<p id="sATK" class="stats">SPATK</p>
+<p id="sDEF" class="stats">SPDEF</p>
+<p id="Speedo" class="stats">SPEED</p>
+<p id="skill1" class="skills">SK1</p>
+<p id="skill2" class="skills">SK2</p>
+<p id="Ht" class="final">HT</p>
+<p id="Wg" class="final">WG</p>
+
+</body>
+<footer>
+    <script src="./apiProgramming.js"></script>
+</footer>
+</html>
